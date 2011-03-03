@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NS Like This\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-25 13:24+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;gettext(\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../my-liked.php:66
+msgid "Order by"
+msgstr "Mostra"
+
+#: ../my-liked.php:68
+msgid "Most recent"
+msgstr "Piú recenti"
+
+#: ../my-liked.php:69
+msgid "Most visited"
+msgstr "Piú visitati"
+
+#: ../my-liked.php:70
+msgid "Most liked"
+msgstr "Piú popolari"
+
+#: ../my-liked.php:78
+msgid "Date Liked"
+msgstr "Aggiunto il"
+
+#: ../my-liked.php:79
+msgid "Title"
+msgstr "Titolo"
+
+#: ../ns-like-this.php:36
+msgid "My liked content"
+msgstr "I miei preferiti"
+
+#: ../ns-like-this.php:182
+msgid "\"NS Like This\" Options"
+msgstr "Impostazioni \"NS Like This\""
+
+#: ../ns-like-this.php:187
+msgid "Configuration"
+msgstr "Impostazioni"
+
+#: ../ns-like-this.php:193
+msgid "jQuery framework"
+msgstr ""
+
+#: ../ns-like-this.php:196
+msgid "Enabled"
+msgstr ""
+
+#: ../ns-like-this.php:196
+msgid "Disabled"
+msgstr ""
+
+#: ../ns-like-this.php:198
+msgid "Disable it if you already have the jQuery framework enabled in your theme."
+msgstr ""
+
+#: ../ns-like-this.php:202
+msgid "Image or text?"
+msgstr ""
+
+#: ../ns-like-this.php:214
+msgid "Automatic display"
+msgstr ""
+
+#: ../ns-like-this.php:218
+msgid "<strong>On all posts</strong> (home, archives, search) at the bottom of the post"
+msgstr ""
+
+#: ../ns-like-this.php:220
+msgid "If you disable this option, you have to put manually the code"
+msgstr ""
+
+#: ../ns-like-this.php:220
+msgid "wherever you want in your template."
+msgstr ""
+
+#: ../ns-like-this.php:224
+msgid "Use emblems"
+msgstr ""
+
+#: ../ns-like-this.php:228
+msgid "Allows you to associate an emblem to each <em>like</em>"
+msgstr ""
+
+#: ../ns-like-this.php:233
+msgid "Save Options"
+msgstr "Salva opzioni"
+
+#: ../ns-like-this.php:271
+#: ../ns-like-this.php:289
+#: ../ns-like-this.php:296
+msgid "Most liked content"
+msgstr ""
+
+#: ../ns-like-this.php:311
+#: ../ns-like-this.php:395
+#: ../ns-like-this.php:479
+msgid "Title:"
+msgstr ""
+
+#: ../ns-like-this.php:314
+#: ../ns-like-this.php:398
+#: ../ns-like-this.php:482
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../ns-like-this.php:317
+msgid "Show likes counter"
+msgstr ""
+
+#: ../ns-like-this.php:355
+#: ../ns-like-this.php:373
+#: ../ns-like-this.php:380
+#: ../ns-like-this.php:406
+msgid "Latest liked content"
+msgstr ""
+
+#: ../ns-like-this.php:401
+msgid "Show dates"
+msgstr ""
+
+#: ../ns-like-this.php:439
+#: ../ns-like-this.php:457
+#: ../ns-like-this.php:464
+msgid "Most visited liked content"
+msgstr ""
+
+#: ../ns-like-this.php:485
+msgid "Show count"
+msgstr ""
+
+#: ../sort-table.php:24
+msgid "Dislike This"
+msgstr "Elimina dai \"Miei Preferiti\""
+
+#: ../sort-table.php:30
+msgid "Like This"
+msgstr "Aggiungi ai \"Miei Preferiti\""
+
+#: ../class/liked_content.php:246
+msgid "Today"
+msgstr "Oggi"
+
+#: ../class/liked_content.php:249
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: ../class/liked_content.php:252
+#, php-format
+msgid "Last %s"
+msgstr "%s scorso"
+
+#: ../class/liked_content.php:259
+#, php-format
+msgid "at %s"
+msgstr "alle %s"
+
