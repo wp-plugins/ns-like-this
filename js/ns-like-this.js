@@ -4,7 +4,7 @@ function externalLikeThis(postId, type) {
 		jQuery('#nsLikeThis-'+type+'-'+postId+' .counter').text('...');
 		
 		jQuery.post(blogUrl + "/wp-content/plugins/ns-like-this/like.php",
-		{ id: postId, type: type },
+		{ id: postId, type: type, fulltext: 1 },
 			function(data){
 				jQuery('#nsLikeThis-'+type+'-'+postId+' .counter').text(data);
 		});

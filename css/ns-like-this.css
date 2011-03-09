@@ -4,6 +4,7 @@ body{
 .nsLikeThis {
 	display:block;
 	padding: 15px 0;
+    font-size:14px;
 }
 .nsLikeThis .counter {
 	background:url(heart.png) center left no-repeat;

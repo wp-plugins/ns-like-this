@@ -3,7 +3,7 @@ Contributors: netsolutions
 Tags: widget, favorites, like, social
 Requires at least: 3.0.0
 Tested up to: 3.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 This plugin allows your users to save their favorite content, and keep track of their favorites (add or remove), other user's favorites and clicks on favorites.
 
@@ -33,6 +33,12 @@ If you have a new translation for your language, please send us by email and we'
 1. Edit the settings under the section 'Settings > NS Like This' on your Wordpress admin panel.
 
 == Changelog ==
+
+= 1.1 =
+* Added some improvements in CSS and images
+* Fixed problem in plugin header
+* Added text in like button
+* Updated translation
 
 = 1.0 =
 * Initial release.

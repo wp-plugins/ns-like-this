@@ -3,10 +3,13 @@
 Plugin Name: NS Like This
 Plugin URI: http://www.net-solutions.es
 Description: This plugin allows users to like your posts/pages/categories/tags instead of commment it.
-Version: 1.0
+Version: 1.1
 Author: Net Solutions
 Author URI: http://www.net-solutions.es
+License: GPLv3
+*/
 
+/*
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
@@ -510,14 +513,14 @@ function getNSLikeThis($arg) {
 			
     if (! LikedContent::userLikesThis($user_id, $content_id, $content_type)) {
     	if (get_option('nslt_textOrImage') == 'image') {
-    		$counter = '<a onclick="externalLikeThis('.$content_id.', \''.$content_type.'\');" class="image">'.$liked.'</a>';
+    		$counter = '<a onclick="externalLikeThis('.$content_id.', \''.$content_type.'\');" class="image">'. __('I like this', 'ns-like-this') .'</a>';
     	}
     	else {
     		$counter = $liked.' <a onclick="externalLikeThis('.$content_id.', '.$content_type.');">'.get_option('nslt_text').'</a>';
     	}
     }
     else {
-    	$counter = $liked;
+    	$counter = sprintf(_n('%d person like this', '%d people like this', $liked, 'ns-like-this'), $liked);
     }
     
     $nsLikeThis = '<div id="nsLikeThis-'.$content_type.'-'.$content_id.'" class="nsLikeThis">';

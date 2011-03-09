@@ -17,6 +17,13 @@ if($content_id != ''){
 		$like->save();
 	}
 	
-	echo LikedContent::getContentLikes($content_id, $content_type);
+	$count = LikedContent::getContentLikes($content_id, $content_type);
+	
+	if($_POST['fulltext']){
+		echo sprintf(_n('%d person like this', '%d people like this', $count, 'ns-like-this'), $count);
+	}
+	else{
+		echo $count;
+	}
 }
 ?>
